@@ -165,7 +165,7 @@ namespace PlantUmlClassDiagramGenerator
                         }
                     }
 
-                    includeRefs.AppendLine("!include " + outputFile.Replace(outputRoot, @".\"));
+                    includeRefs.AppendLine("!include " + outputFile.Replace(outputRoot, @"."));
                 }
                 catch (Exception e)
                 {
